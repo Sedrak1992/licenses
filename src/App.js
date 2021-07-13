@@ -5,15 +5,17 @@ import Licenses2 from "./Licenses2";
 import Header from "./Header";
 import JamesMainMackbook from "./JamesMainMackbook";
 import Licenses from "./Licenses";
+import Container from "@material-ui/core/Container";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <SystemName />
-      <JamesMainMackbook />
-      <Licenses />
-      <Licenses2 />
+      <Container>
+        <Header />
+        <SystemName />
+        <JamesMainMackbook />
+        <JamesMainMackbook />
+      </Container>
     </div>
   );
 }

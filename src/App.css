@@ -39,7 +39,7 @@
   }
 }
 body {
-  background: #1f2224;
+  background:#1F2224;
 }
 h1 {
   color: #fff;
@@ -55,7 +55,7 @@ h1 {
   display: flex;
   align-items: center;
   color: #fff;
-  margin: 30px 70px;
+  margin: 3px 70px;
   padding-bottom: 22px;
   border-bottom: 2px solid #fff;
 }
@@ -76,23 +76,23 @@ nav img {
 h2 {
   color: #fff;
   display: flex;
-  margin: 0 30px;
 }
 .System_Name {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10px;
 }
 .JamesMainMackbook {
   display: flex;
   align-items: center;
   color: #fff;
-  width: 90%;
+  width: 100%;
   height: 44px;
-  margin: 10px auto;
   justify-content: space-between;
   border: 2px solid #fff;
   border-radius: 4px;
   padding-left: 10px;
+  background: #1A1C1E;
 }
 .JamesMainMackbook > img {
   margin: 10px;
@@ -105,11 +105,12 @@ h2 {
   margin: 0 auto;
 }
 .Licenses > h3 {
-  padding: 5px 50px;
+  padding: 5px 30px;
 }
 .Licenses1 {
   display: flex;
-  width: 85%;
+  width: 90%;
+  margin-top: 10px;
   height: 44px;
   background: #1a1c1e;
   justify-content: space-between;
@@ -137,4 +138,17 @@ h2 {
   margin:0 10px;
   border-radius: 4px;
   border: 0;
+}
+.boss{
+  width: 100%;
+  color: #fff;
+}
+.MuiExpansionPanelSummary-content{
+  background: #1F2224;
+}
+.MuiExpansionPanel-root.{
+  margin: 0;
+}
+.MuiExpansionPanel-root{
+  margin: 0 !important;
 }
