@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  position: relative;
+  color: #fff;
 }
 
 .App-logo {
@@ -35,4 +37,104 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  background: #1f2224;
+}
+h1 {
+  color: #fff;
+}
+.button {
+  padding: 8px 20px;
+  background: #18a7ff;
+  color: #fff;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.box {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 30px 70px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #fff;
+}
+.box > div {
+  padding: 0 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 60px;
+  margin: 0 auto;
+}
+nav img {
+  margin: 10px 20px;
+}
+h2 {
+  color: #fff;
+  display: flex;
+  margin: 0 30px;
+}
+.System_Name {
+  display: flex;
+  justify-content: space-around;
+}
+.JamesMainMackbook {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  width: 90%;
+  height: 44px;
+  margin: 10px auto;
+  justify-content: space-between;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.JamesMainMackbook > img {
+  margin: 10px;
+}
+.Licenses {
+  display: flex;
+  color: #fff;
+  width: 85%;
+  height: 44px;
+  margin: 0 auto;
+}
+.Licenses > h3 {
+  padding: 5px 50px;
+}
+.Licenses1 {
+  display: flex;
+  width: 85%;
+  height: 44px;
+  background: #1a1c1e;
+  justify-content: space-between;
+  margin: 20px auto;
+  align-items: center;
+  padding: 0 10px;
+}
+.app {
+  display: flex;
+  align-items: center;
+}
+.addL {
+  width: 113px;
+  border: 0;
+  height: 31px;
+  background: #499861;
+  color: #fff;
+  border-radius: 4px;
+}
+.addL1 {
+  background: #CC4343;
+  width: 82px;
+  height: 31px;
+  color: #fff;
+  margin:0 10px;
+  border-radius: 4px;
+  border: 0;
 }
